@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="bg">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self' mailto:; img-src 'self' data:; font-src 'self'; style-src 'self'; script-src 'self'; connect-src 'self' ws://127.0.0.1:* ws://localhost:*; upgrade-insecure-requests"
+    />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="theme-color" content="#14532d" />
+    <meta
+      name="description"
+      content="TerraGreen — зелена поддръжка на терени: косене, почистване, кастрене и поддръжка на фотоволтаични централи. Безплатен оглед."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="TerraGreen | Зелена поддръжка на терени" />
+    <meta
+      property="og:description"
+      content="Професионално косене, почистване и поддръжка на зелени терени за частни имоти, бизнес обекти и фотоволтаични централи."
+    />
+    <meta property="og:image" content="assets/hero-terrain.svg" />
+    <title>TerraGreen | Зелена поддръжка на терени</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">Към съдържанието</a>
+
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="brand" href="#home" aria-label="TerraGreen home">
+          <img class="brand-mark" src="assets/logo.svg" alt="" width="48" height="48" />
+          <span class="brand-copy">
+            <span class="brand-name">TerraGreen</span>
+            <span class="brand-slogan" data-i18n="brandSlogan">Зелена поддръжка на терени</span>
+          </span>
+        </a>
+
+        <nav class="desktop-nav" aria-label="Primary navigation">
+          <a href="#home" data-i18n="navHome">Начало</a>
+          <a href="#services" data-i18n="navServices">Услуги</a>
+          <a href="#about" data-i18n="navAbout">За нас</a>
+          <a href="#contact" data-i18n="navContact">Контакти</a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="language-toggle dynamic-button" type="button" data-language-toggle aria-label="Switch language">
+            EN
+          </button>
+          <a class="call-pill dynamic-button" href="tel:+359879264515" aria-label="Call TerraGreen">
+            <span class="icon" aria-hidden="true">☎</span>
+            <span data-phone-display>0879 264 515</span>
+          </a>
+          <button
+            class="menu-button dynamic-button"
+            type="button"
+            aria-controls="mobile-menu"
+            aria-expanded="false"
+            data-menu-toggle
+          >
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="visually-hidden" data-i18n="menu">Меню</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="mobile-menu" id="mobile-menu" data-mobile-menu hidden>
+        <nav class="mobile-nav" aria-label="Mobile navigation">
+          <a href="#home" data-i18n="navHome">Начало</a>
+          <a href="#services" data-i18n="navServices">Услуги</a>
+          <a href="#about" data-i18n="navAbout">За нас</a>
+          <a href="#contact" data-i18n="navContact">Контакти</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero section" id="home" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">
+              <span aria-hidden="true">●</span>
+              <span data-i18n="heroEyebrow">Безплатен оглед • Собствена техника • Частни и бизнес клиенти</span>
+            </p>
+            <h1 id="hero-title" data-i18n="heroTitle">
+              Професионална поддръжка, косене и почистване на зелени терени
+            </h1>
+            <p class="hero-lead" data-i18n="heroLead">
+              TerraGreen помага на собственици, фирми и оператори на фотоволтаични централи да поддържат терени чисти, безопасни и проходими.
+            </p>
+            <div class="hero-buttons">
+              <a class="button button-primary dynamic-button" href="tel:+359879264515">
+                <span aria-hidden="true">☎</span>
+                <span data-i18n="callNow">Обади се сега</span>
+              </a>
+              <a class="button button-secondary dynamic-button" href="#contact">
+                <span data-i18n="sendPhotos">Изпрати снимки</span>
+                <span aria-hidden="true">→</span>
+              </a>
+            </div>
+            <ul class="hero-checks" aria-label="Advantages">
+              <li>
+                <span aria-hidden="true">✓</span>
+                <span data-i18n="checkInspection">Индивидуална оферта след оглед</span>
+              </li>
+              <li>
+                <span aria-hidden="true">✓</span>
+                <span data-i18n="checkTerrain">Подходящо за дворове, фирмени терени и соларни паркове</span>
+              </li>
+              <li>
+                <span aria-hidden="true">✓</span>
+                <span data-i18n="checkPlan">Еднократно почистване или редовна поддръжка</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-visual reveal" aria-label="Green land maintenance illustration">
+            <div class="visual-card">
+              <img src="assets/hero-terrain.svg" alt="Поддържан зелен терен" width="720" height="540" data-i18n-attr="alt:altHero" />
+              <div class="floating-badge floating-badge-top">
+                <strong data-i18n="badgePv">PV терени</strong>
+                <span data-i18n="badgePvText">контрол на растителността</span>
+              </div>
+              <div class="floating-badge floating-badge-bottom">
+                <strong data-i18n="badgeFast">Бърза реакция</strong>
+                <span data-i18n="badgeFastText">оглед + оферта</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust-strip" aria-label="Trust highlights">
+        <div class="container trust-grid">
+          <div class="trust-item reveal">
+            <span class="trust-icon" aria-hidden="true">⚙</span>
+            <strong data-i18n="trustEquipment">Собствена техника</strong>
+          </div>
+          <div class="trust-item reveal">
+            <span class="trust-icon" aria-hidden="true">⌂</span>
+            <strong data-i18n="trustClients">Частни и бизнес клиенти</strong>
+          </div>
+          <div class="trust-item reveal">
+            <span class="trust-icon" aria-hidden="true">☀</span>
+            <strong data-i18n="trustSolar">Фотоволтаични централи</strong>
+          </div>
+          <div class="trust-item reveal">
+            <span class="trust-icon" aria-hidden="true">✓</span>
+            <strong data-i18n="trustFlexible">Еднократно или абонаментно</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="section services" id="services" aria-labelledby="services-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="section-kicker" data-i18n="servicesKicker">Услуги</p>
+            <h2 id="services-title" data-i18n="servicesTitle">Зелена поддръжка за терени, дворове и обекти</h2>
+            <p data-i18n="servicesIntro">
+              Фокусът е практична работа на терен: косене, почистване, контрол на растителността, кастрене и подготовка на имоти за нормално използване.
+            </p>
+          </div>
+
+          <div class="service-grid">
+            <article class="service-card reveal">
+              <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 18c7-1 12-6 15-14 3 9-1 16-9 18-3 .7-5 0-6-4Z"/><path d="M4 18c5-.4 9-3 12-8"/></svg></span>
+              <h3 data-i18n="serviceMowingTitle">Косене на трева и бурени</h3>
+              <p data-i18n="serviceMowingText">
+                Еднократно или редовно косене на дворове, парцели, зелени площи и обрасли участъци.
+              </p>
+            </article>
+            <article class="service-card reveal">
+              <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 19h12"/><path d="M8 19l2-7h4l2 7"/><path d="M12 12V3"/><path d="M9 3h6"/></svg></span>
+              <h3 data-i18n="serviceCleaningTitle">Почистване на занемарени терени</h3>
+              <p data-i18n="serviceCleaningText">
+                Премахване на висока растителност, бурени, клони и подготовка на имота за достъп и използване.
+              </p>
+            </article>
+            <article class="service-card reveal">
+              <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 21v-8"/><path d="M7 18h10"/><path d="M8 13a4 4 0 1 1 2.8-6.8A4.5 4.5 0 1 1 16 13H8Z"/></svg></span>
+              <h3 data-i18n="servicePruningTitle">Рязане, кастрене и оформяне</h3>
+              <p data-i18n="servicePruningText">
+                Внимателна работа около огради, постройки, пътища, съоръжения и техническа инфраструктура.
+              </p>
+            </article>
+            <article class="service-card reveal">
+              <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 16h16"/><path d="M7 16l3-8h7l3 8"/><path d="M12 8l-2 8"/><path d="M16 8l1 8"/><path d="M12 3v2"/><path d="M19 5l-1.5 1.5"/><path d="M5 5l1.5 1.5"/></svg></span>
+              <h3 data-i18n="servicePvTitle">Поддръжка на фотоволтаични централи</h3>
+              <p data-i18n="servicePvText">
+                Контрол на треви и растителност около панели, кабели, огради, пътища за достъп и сервизни зони.
+              </p>
+            </article>
+            <article class="service-card reveal">
+              <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 11 12 4l8 7"/><path d="M6 10v10h12V10"/><path d="M10 20v-6h4v6"/></svg></span>
+              <h3 data-i18n="serviceGreenTitle">Поддръжка на зелени площи</h3>
+              <p data-i18n="serviceGreenText">
+                Сезонна или абонаментна грижа за дворове, комплекси, бизнес сгради и обществени пространства.
+              </p>
+            </article>
+            <article class="service-card reveal">
+              <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 7h8l-2-2"/><path d="M17 17H9l2 2"/><path d="M6.5 16A6 6 0 0 1 7 7"/><path d="M17.5 8A6 6 0 0 1 17 17"/></svg></span>
+              <h3 data-i18n="serviceWasteTitle">Събиране на зелени отпадъци</h3>
+              <p data-i18n="serviceWasteText">
+                Подготвена зона след работа: събиране на окосена трева, клони и растителни отпадъци при договорка.
+              </p>
+            </article>
+          </div>
+
+          <div class="quote-panel reveal" aria-label="Quote information">
+            <div>
+              <p class="section-kicker" data-i18n="quoteKicker">Оферта</p>
+              <h3 data-i18n="quoteTitle">Цената се определя според реалния терен</h3>
+              <p data-i18n="quoteText">
+                Площ, височина на растителността, достъп за техника, наклон, отпадъци и локация влияят на офертата. Затова водещата стъпка е безплатен оглед или снимки.
+              </p>
+            </div>
+            <a class="button button-primary dynamic-button" href="#contact" data-i18n="quoteButton">Заяви оглед</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about" aria-labelledby="about-title">
+        <div class="container about-grid">
+          <div class="about-copy reveal">
+            <p class="section-kicker" data-i18n="aboutKicker">За нас</p>
+            <h2 id="about-title" data-i18n="aboutTitle">Подходът е прост: оглед, ясна оферта, техника и чист резултат</h2>
+            <p data-i18n="aboutText">
+              TerraGreen е временна работна марка за услуга, насочена към зелена поддръжка на терени в България. Сайтът е изграден така, че да показва надеждност, бърза комуникация и реални резултати.
+            </p>
+
+            <div class="client-card">
+              <h3 data-i18n="clientsTitle">Работим с</h3>
+              <ul class="client-list">
+                <li data-i18n="clientHomes">Къщи, вили и частни дворове</li>
+                <li data-i18n="clientPlots">Занемарени имоти и парцели</li>
+                <li data-i18n="clientBusiness">Фирмени, складови и промишлени терени</li>
+                <li data-i18n="clientComplexes">Жилищни комплекси и общи зелени площи</li>
+                <li data-i18n="clientPv">Фотоволтаични паркове и технически обекти</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="proof-area reveal">
+            <div class="proof-header">
+              <div>
+                <p class="section-kicker" data-i18n="proofKicker">Преди / След</p>
+                <h3 data-i18n="proofTitle">Галерия за реални резултати</h3>
+              </div>
+              <span class="proof-note" data-i18n="proofNote">Място за реални снимки от обекти — преди, по време и след работа.</span>
+            </div>
+
+            <div class="gallery-grid">
+              <figure>
+                <img src="assets/before.svg" alt="Преди почистване" width="420" height="320" data-i18n-attr="alt:altBefore" />
+                <figcaption data-i18n="galleryBefore">Преди</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/process.svg" alt="Работа на терен" width="420" height="320" data-i18n-attr="alt:altProcess" />
+                <figcaption data-i18n="galleryProcess">Процес</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/after.svg" alt="След почистване" width="420" height="320" data-i18n-attr="alt:altAfter" />
+                <figcaption data-i18n="galleryAfter">След</figcaption>
+              </figure>
+            </div>
+
+            <div class="process-box">
+              <h3 data-i18n="processTitle">Как работим</h3>
+              <ol class="process-list">
+                <li>
+                  <span>1</span>
+                  <p data-i18n="processOne">Обаждате се или изпращате снимки на терена.</p>
+                </li>
+                <li>
+                  <span>2</span>
+                  <p data-i18n="processTwo">Уточняваме локация, достъп, площ и състояние.</p>
+                </li>
+                <li>
+                  <span>3</span>
+                  <p data-i18n="processThree">Даваме оферта и изпълняваме коректно.</p>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section safety-section" aria-labelledby="safety-title">
+        <div class="container safety-grid reveal">
+          <div>
+            <p class="section-kicker" data-i18n="safetyKicker">Сигурност и коректност</p>
+            <h2 id="safety-title" data-i18n="safetyTitle">Подходящо позициониране за България и ЕС</h2>
+          </div>
+          <div class="safety-cards">
+            <article>
+              <h3 data-i18n="safeCardOneTitle">Работа около инфраструктура</h3>
+              <p data-i18n="safeCardOneText">Внимание при огради, кабели, панели, пътища за достъп, сгради и технически зони.</p>
+            </article>
+            <article>
+              <h3 data-i18n="safeCardTwoTitle">Ясна комуникация</h3>
+              <p data-i18n="safeCardTwoText">Телефонът е видим навсякъде, а заявката може да започне само със снимки и локация.</p>
+            </article>
+            <article>
+              <h3 data-i18n="safeCardThreeTitle">Готовност за бизнес клиенти</h3>
+              <p data-i18n="safeCardThreeText">Подходящо за абонаментна поддръжка, повторяеми обекти и по-големи терени.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-grid">
+          <div class="contact-card reveal">
+            <p class="section-kicker" data-i18n="contactKicker">Контакти</p>
+            <h2 id="contact-title" data-i18n="contactTitle">Нуждаете се от поддръжка на терен?</h2>
+            <p data-i18n="contactText">
+              Обадете се за безплатен оглед или изпратете снимки, локация и кратко описание на терена.
+            </p>
+            <div class="contact-actions">
+              <a class="contact-link contact-phone dynamic-button" href="tel:+359879264515">
+                <span aria-hidden="true">☎</span>
+                <span data-phone-display>0879 264 515</span>
+              </a>
+              <a class="contact-link dynamic-button" href="mailto:office@terragreen.bg?subject=Запитване%20към%20TerraGreen">
+                <span aria-hidden="true">✉</span>
+                <span>office@terragreen.bg</span>
+              </a>
+              <div class="chat-actions" aria-label="Chat options">
+                <a class="chat-action chat-action-whatsapp dynamic-button" href="https://wa.me/359879264515" target="_blank" rel="noopener noreferrer" data-chat-link="whatsapp">
+                  <svg class="chat-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12.04 4.05a7.83 7.83 0 0 0-6.7 11.88l-.83 3.05 3.14-.82a7.83 7.83 0 1 0 4.39-14.11Z" />
+                    <path d="M9.55 8.36c-.18-.4-.36-.41-.53-.42h-.45c-.16 0-.42.06-.64.3-.22.23-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.66 2.66 4.1 3.62 2.03.8 2.44.64 2.88.6.44-.04 1.43-.58 1.63-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28-.24-.12-1.43-.7-1.65-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.01-.37-1.93-1.19-.71-.63-1.19-1.42-1.33-1.66-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.53-1.28-.77-1.78Z" />
+                  </svg>
+                  <span data-i18n="chatWhatsapp">WhatsApp</span>
+                </a>
+                <a class="chat-action chat-action-viber dynamic-button" href="viber://chat?number=%2B359879264515" data-chat-link="viber">
+                  <svg class="chat-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M7.2 4.4h9.6A3.8 3.8 0 0 1 20.6 8.2v5.3a3.8 3.8 0 0 1-3.8 3.8h-3.1l-3.3 2.3c-.5.35-1.2 0-1.2-.62v-1.68h-2A3.8 3.8 0 0 1 3.4 13.5V8.2A3.8 3.8 0 0 1 7.2 4.4Z" />
+                    <path d="M8.7 8.1c.1 2.9 2.4 5.1 5.2 5.2" />
+                    <path d="M9.2 10.2c.6 1.2 1.4 2 2.6 2.6" />
+                    <path d="M13.3 8.1c1.2.1 2.2 1 2.3 2.3" />
+                  </svg>
+                  <span data-i18n="chatViber">Viber</span>
+                </a>
+              </div>
+              <p class="chat-note" data-i18n="chatNote">Изпратете снимки на терена във WhatsApp или Viber за по-бърза ориентировъчна оферта.</p>
+              <p class="contact-area">
+                <span aria-hidden="true">⌖</span>
+                <span data-i18n="serviceArea">Работим в избран регион и околните населени места.</span>
+              </p>
+            </div>
+          </div>
+
+          <form class="contact-form reveal" id="contact-form" novalidate>
+            <div class="form-row">
+              <label for="name" data-i18n="formName">Име</label>
+              <input id="name" name="name" type="text" autocomplete="name" maxlength="80" required />
+            </div>
+            <div class="form-row">
+              <label for="phone" data-i18n="formPhone">Телефон</label>
+              <input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" maxlength="32" required />
+            </div>
+            <div class="form-row">
+              <label for="location" data-i18n="formLocation">Локация / населено място</label>
+              <input id="location" name="location" type="text" autocomplete="address-level2" maxlength="120" />
+            </div>
+            <div class="form-row">
+              <label for="service" data-i18n="formService">Услуга</label>
+              <select id="service" name="service">
+                <option value="mowing" data-i18n="optionMowing">Косене на трева и бурени</option>
+                <option value="cleaning" data-i18n="optionCleaning">Почистване на занемарен терен</option>
+                <option value="pruning" data-i18n="optionPruning">Рязане и кастрене</option>
+                <option value="pv" data-i18n="optionPv">Фотоволтаична централа</option>
+                <option value="subscription" data-i18n="optionSubscription">Абонаментна поддръжка</option>
+                <option value="other" data-i18n="optionOther">Друго</option>
+              </select>
+            </div>
+            <div class="form-row form-row-full">
+              <label for="message" data-i18n="formMessage">Описание</label>
+              <textarea id="message" name="message" rows="5" maxlength="900"></textarea>
+            </div>
+            <p class="form-help" data-i18n="formHelp">
+              Формата не записва данни на сървър. Ще отвори вашия имейл клиент с подготвено съобщение.
+            </p>
+            <button class="button button-primary dynamic-button form-button" type="submit" data-i18n="formSubmit">Изпрати запитване</button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <section class="legal-section" id="legal" aria-labelledby="legal-title">
+      <div class="container legal-wrap">
+        <div class="legal-heading reveal">
+          <p class="section-kicker" data-i18n="legalKicker">Правна информация</p>
+          <h2 id="legal-title" data-i18n="legalTitle">Поверителност, условия и бисквитки</h2>
+          <p data-i18n="legalIntro">
+            Кратка, прозрачна информация за посетители и клиенти. Текстовете са работни и трябва да се попълнят с реалните данни на фирмата преди публикуване.
+          </p>
+        </div>
+
+        <div class="legal-list reveal">
+          <details id="privacy-policy">
+            <summary data-i18n="privacySummary">Политика за поверителност</summary>
+            <div class="legal-content">
+              <p data-i18n="privacyP1">
+                TerraGreen обработва лични данни само когато се свържете с нас чрез телефон, имейл, WhatsApp, Viber или контактната форма. Обичайните данни са име, телефон, населено място, описание на терена и снимки, ако ги изпратите доброволно.
+              </p>
+              <p data-i18n="privacyP2">
+                Данните се използват единствено за отговор на запитване, подготовка на оферта, организиране на оглед и изпълнение на заявена услуга. Не продаваме лични данни и не използваме рекламно проследяване на сайта.
+              </p>
+              <ul>
+                <li data-i18n="privacyItemOne">Администратор: TerraGreen / данните на реалната фирма се добавят преди публикуване.</li>
+                <li data-i18n="privacyItemTwo">Правно основание: преддоговорни отношения, договорно изпълнение, легитимен интерес за комуникация и законови задължения при счетоводни документи.</li>
+                <li data-i18n="privacyItemThree">Срок: запитванията се пазят само докато са необходими за комуникация, оферта, изпълнение или законово изискуемо съхранение.</li>
+                <li data-i18n="privacyItemFour">Права: достъп, корекция, изтриване, ограничаване, възражение и жалба до Комисията за защита на личните данни.</li>
+              </ul>
+              <p class="legal-small" data-i18n="privacyNote">
+                Външните приложения WhatsApp и Viber имат собствени правила за поверителност. Използвайте ги само ако сте съгласни с техните условия.
+              </p>
+            </div>
+          </details>
+
+          <details id="terms-of-use">
+            <summary data-i18n="termsSummary">Условия за ползване</summary>
+            <div class="legal-content">
+              <p data-i18n="termsP1">
+                Информацията в сайта описва услуги за зелена поддръжка на терени, но не представлява окончателна оферта. Крайната цена и срок се уточняват след снимки, разговор или оглед.
+              </p>
+              <p data-i18n="termsP2">
+                Клиентът следва да предостави точна локация, достъп до терена и информация за рискове като кабели, тръби, огради, панели, животни, опасни отпадъци или други ограничения.
+              </p>
+              <p data-i18n="termsP3">
+                Снимките и текстовете в сайта са защитени като съдържание на TerraGreen, освен ако не е посочено друго.
+              </p>
+            </div>
+          </details>
+
+          <details id="cookies-policy">
+            <summary data-i18n="cookiesSummary">Бисквитки и локално съхранение</summary>
+            <div class="legal-content">
+              <p data-i18n="cookiesP1">
+                Сайтът не използва рекламни, аналитични или проследяващи бисквитки. Не се зареждат външни скриптове за маркетинг или статистика.
+              </p>
+              <p data-i18n="cookiesP2">
+                За удобство сайтът може да запази избрания език в localStorage на браузъра. Това не се използва за проследяване и може да бъде изтрито от настройките на браузъра.
+              </p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand footer-brand" href="#top" aria-label="Back to top">
+            <img class="brand-mark" src="assets/logo.svg" alt="" width="44" height="44" />
+            <span class="brand-copy">
+              <span class="brand-name">TerraGreen</span>
+              <span class="brand-slogan" data-i18n="brandSlogan">Зелена поддръжка на терени</span>
+            </span>
+          </a>
+        </div>
+        <div class="footer-center">
+          <p data-i18n="footerText">© 2026 TerraGreen. Всички права запазени.</p>
+          <nav class="footer-legal" aria-label="Legal links">
+            <a href="#privacy-policy" data-i18n="privacyLink">Поверителност</a>
+            <a href="#terms-of-use" data-i18n="termsLink">Условия</a>
+            <a href="#cookies-policy" data-i18n="cookiesLink">Бисквитки</a>
+          </nav>
+        </div>
+        <div class="footer-chat" aria-label="Chat contact">
+          <a class="footer-chat-link dynamic-button" href="https://wa.me/359879264515" target="_blank" rel="noopener noreferrer" data-chat-link="whatsapp">
+            <svg class="chat-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 4.05a7.83 7.83 0 0 0-6.7 11.88l-.83 3.05 3.14-.82a7.83 7.83 0 1 0 4.39-14.11Z"/><path d="M9.55 8.36c-.18-.4-.36-.41-.53-.42h-.45c-.16 0-.42.06-.64.3-.22.23-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.66 2.66 4.1 3.62 2.03.8 2.44.64 2.88.6.44-.04 1.43-.58 1.63-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28-.24-.12-1.43-.7-1.65-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.01-.37-1.93-1.19-.71-.63-1.19-1.42-1.33-1.66-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.53-1.28-.77-1.78Z"/></svg>
+            <span data-i18n="chatWhatsapp">WhatsApp</span>
+          </a>
+          <a class="footer-chat-link dynamic-button" href="viber://chat?number=%2B359879264515" data-chat-link="viber">
+            <svg class="chat-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.2 4.4h9.6A3.8 3.8 0 0 1 20.6 8.2v5.3a3.8 3.8 0 0 1-3.8 3.8h-3.1l-3.3 2.3c-.5.35-1.2 0-1.2-.62v-1.68h-2A3.8 3.8 0 0 1 3.4 13.5V8.2A3.8 3.8 0 0 1 7.2 4.4Z"/><path d="M8.7 8.1c.1 2.9 2.4 5.1 5.2 5.2"/><path d="M9.2 10.2c.6 1.2 1.4 2 2.6 2.6"/><path d="M13.3 8.1c1.2.1 2.2 1 2.3 2.3"/></svg>
+            <span data-i18n="chatViber">Viber</span>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="mobile-cta" aria-label="Quick contact">
+      <a class="dynamic-button" href="tel:+359879264515">
+        <span aria-hidden="true">☎</span>
+        <span data-i18n="mobileCall">Телефон</span>
+      </a>
+      <a class="dynamic-button" href="https://wa.me/359879264515" target="_blank" rel="noopener noreferrer" data-chat-link="whatsapp">
+        <span aria-hidden="true">◉</span>
+        <span data-i18n="chatWhatsapp">WhatsApp</span>
+      </a>
+      <a class="dynamic-button" href="viber://chat?number=%2B359879264515" data-chat-link="viber">
+        <span aria-hidden="true">✦</span>
+        <span data-i18n="chatViber">Viber</span>
+      </a>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
