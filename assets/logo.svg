@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="TerraGreen logo">
+  <rect width="96" height="96" rx="28" fill="#14532d"/>
+  <circle cx="70" cy="24" r="10" fill="#facc15"/>
+  <path d="M24 65c19-4 33-18 42-41 7 24-1 43-22 54-9 5-18 4-25-2 5-1 10-3 16-7 9-6 16-15 21-28-9 13-20 21-32 24Z" fill="#dcfce7"/>
+  <path d="M17 75c20-1 40 0 62 4" stroke="#facc15" stroke-width="7" stroke-linecap="round"/>
+</svg>

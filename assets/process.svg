@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="320" viewBox="0 0 420 320" role="img" aria-label="Land maintenance work in progress">
+  <rect width="420" height="320" rx="28" fill="#eef9e8"/>
+  <circle cx="342" cy="58" r="27" fill="#facc15"/>
+  <path d="M0 232c82-37 163-38 244-3 64 28 123 27 176-3v94H0Z" fill="#86efac"/>
+  <path d="M0 276c138-31 278-31 420 0v44H0Z" fill="#14532d" opacity="0.8"/>
+  <g filter="drop-shadow(0 12px 12px rgb(6 33 20 / .18))">
+    <rect x="126" y="156" width="126" height="56" rx="18" fill="#0b3b23"/>
+    <path d="M139 156h72l35 42H111Z" fill="#facc15"/>
+    <circle cx="151" cy="220" r="20" fill="#062114"/><circle cx="232" cy="220" r="20" fill="#062114"/>
+    <circle cx="151" cy="220" r="8" fill="#64748b"/><circle cx="232" cy="220" r="8" fill="#64748b"/>
+    <path d="M246 168l78-64" stroke="#0b3b23" stroke-width="12" stroke-linecap="round"/>
+    <path d="M321 104l45 12" stroke="#facc15" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <path d="M60 245c78-21 167-19 267 6" fill="none" stroke="#dcfce7" stroke-width="7" stroke-linecap="round" opacity="0.7"/>
+  <path d="M36 40h94" stroke="#14532d" stroke-width="8" stroke-linecap="round"/>
+  <path d="M36 58h58" stroke="#facc15" stroke-width="7" stroke-linecap="round"/>
+</svg>

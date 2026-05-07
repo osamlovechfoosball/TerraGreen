@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="320" viewBox="0 0 420 320" role="img" aria-label="Overgrown land before maintenance">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#edf7e6"/>
+      <stop offset="1" stop-color="#fffde8"/>
+    </linearGradient>
+  </defs>
+  <rect width="420" height="320" rx="28" fill="url(#bg)"/>
+  <circle cx="344" cy="58" r="27" fill="#facc15"/>
+  <path d="M0 225c72-42 140-47 204-15 69 34 141 27 216-21v131H0Z" fill="#84cc16"/>
+  <path d="M0 262c112-48 228-46 348 7 27 12 51 16 72 12v39H0Z" fill="#14532d"/>
+  <g stroke="#365314" stroke-width="8" stroke-linecap="round" opacity="0.86">
+    <path d="M31 270l22-104 35 110"/><path d="M84 277l28-128 39 132"/><path d="M151 279l18-116 41 122"/>
+    <path d="M222 282l26-132 45 137"/><path d="M292 282l21-116 41 120"/><path d="M354 282l18-94 30 96"/>
+  </g>
+  <g fill="#0b3b23" opacity="0.32">
+    <circle cx="90" cy="212" r="18"/><circle cx="250" cy="202" r="22"/><circle cx="318" cy="222" r="16"/>
+  </g>
+  <path d="M36 40h94" stroke="#14532d" stroke-width="8" stroke-linecap="round"/>
+  <path d="M36 58h58" stroke="#facc15" stroke-width="7" stroke-linecap="round"/>
+</svg>

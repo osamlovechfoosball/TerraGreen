@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="320" viewBox="0 0 420 320" role="img" aria-label="Clean green land after maintenance">
+  <rect width="420" height="320" rx="28" fill="#f7fff0"/>
+  <circle cx="342" cy="58" r="27" fill="#facc15"/>
+  <path d="M0 228c78-37 155-37 233 0 66 31 128 30 187-5v97H0Z" fill="#bbf7d0"/>
+  <path d="M0 272c133-23 273-22 420 1v47H0Z" fill="#166534"/>
+  <g fill="none" stroke="#dcfce7" stroke-width="7" stroke-linecap="round" opacity="0.78">
+    <path d="M36 282c82-17 171-18 267-2"/><path d="M72 248c85-19 176-17 274 5"/>
+  </g>
+  <g filter="drop-shadow(0 12px 12px rgb(6 33 20 / .14))">
+    <path d="M78 201h80v59H78z" fill="#0b3b23"/>
+    <path d="M63 260h111" stroke="#0b3b23" stroke-width="12" stroke-linecap="round"/>
+    <path d="M88 178h60l27 38H61z" fill="#facc15"/>
+    <rect x="100" y="220" width="36" height="40" rx="6" fill="#dcfce7" opacity="0.9"/>
+  </g>
+  <path d="M36 40h94" stroke="#14532d" stroke-width="8" stroke-linecap="round"/>
+  <path d="M36 58h58" stroke="#facc15" stroke-width="7" stroke-linecap="round"/>
+</svg>
